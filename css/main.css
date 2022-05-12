@@ -173,7 +173,7 @@ a{text-decoration: none;}
               width: 1270px;height: 30px; border-bottom: 3px solid #4e4a90;}
 
 #about .about_inner{float: left;margin-left: 150px;margin-top: 30px; width: 1500px;height: 710px;
-      background: url("/images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
 #about .about_inner .me{float: left;margin-top: 55px;margin-left: 320px; width: 1500px;height: 70px;}
 #about .about_inner .me>p{font-size: 20px; color: #333;font-weight: bold;}
 
