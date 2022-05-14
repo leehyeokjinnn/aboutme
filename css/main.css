@@ -28,7 +28,7 @@ a{text-decoration: none;}
             width: 180px; height: 80px;  color: #808080; 
             font-size: 20px;} 
 
-#main .nav{ float: right; margin: 50px 0 0 0;}
+#main .nav{ float: right; margin: 50px 30px 0 0;}
 #main .nav li{ float: left; margin-right: 50px;}     
 #main .nav a{font-size: 20px; font-weight: 600; color:#808080;} 
 #main .nav li.on a{color:#a9a9a9;}
@@ -164,73 +164,6 @@ a{text-decoration: none;}
 
 
 
-/* ==========about========== */
-#about{width: 100%;height: 100vh; background-color: #fff;}
-
-#about .title{float: left; width: 230px; height: 71px;  margin-left: 150px; margin-top: 20px;}
-#about .title p{ font-size: 35px; padding-top: 25px;font-weight: 600;color:#4e4a90 ;}
-#about .line{float: left;margin-top: 40px;
-              width: 1270px;height: 30px; border-bottom: 3px solid #4e4a90;}
-
-#about .about_inner{float: left;margin-left: 150px;margin-top: 30px; width: 1500px;height: 710px;
-      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
-#about .about_inner .me{float: left;margin-top: 55px;margin-left: 320px; width: 1500px;height: 70px;}
-#about .about_inner .me>p{font-size: 20px; color: #333;font-weight: bold;}
-
-
-
-
-#about .about_inner .box_001{margin-top: 120px; width: 1500px;height: 150px; }
-#about .about_inner .ex01{margin-top: 30px;margin-left: 120px; float: left; width: 130px;height: 120px;line-height: 120px; ; 
-                         border: 3px solid #4e4a90;
-                          border-radius:100%;
-                        
-                          }
-#about .about_inner .ex01>h3{font-size: 15px;color: #4e4a90;padding-left:33px;font-weight: bold;}
-#about .about_inner .me_inner01{float: left; width: 1000px;height: 130px;
-                              margin-left: 50px;
-                              margin-top: 20px;
-                              border-bottom: 1px solid #4e4a90;}
-                              
- #about .about_inner .me_inner01>.bold{padding-left: 15px;padding-top: 5px; font-size: 18px; color: #333;font-weight: bold;}                         
-#about .about_inner .me_inner01>p{padding-left: 15px; margin-top: 10px; font-size: 16px;color: #808080;font-weight: bold;}                      
-                                                           
-                             
-
-
-#about .about_inner .box_002{margin-top: 20px; width: 1500px;height: 150px;}
-#about .about_inner .ex02{margin-top: 50px;margin-left: 120px;float: left; width: 130px;height: 120px;line-height: 120px;  
-                          border: 3px solid #4e4a90;
-      
-                            border-radius: 100%;
-                          
-                             }
-#about .about_inner .ex02>h3{font-size: 15px;color: #4e4a90;padding-left: 7px;font-weight: bold;}
- #about .about_inner .me_inner02{float: left; width: 1000px;height: 130px;
-                                 margin-left: 50px;
-                                 margin-top: 40px;
-                                 border-bottom: 1px solid #4e4a90;}
-                              
- #about .about_inner .me_inner02>.bold{padding-left: 15px;padding-top: 5px; font-size: 18px; color: #333;font-weight: bold;}                         
- #about .about_inner .me_inner02>p{padding-left: 15px; margin-top: 10px; font-size: 16px;color: #808080;font-weight: bold;}                      
-                              
-
-
-
-
-#about .about_inner .box_003{margin-top: 40px; width: 1500px;height: 150px; }
-#about .about_inner .ex03{margin-top: 50px;margin-left: 120px;float: left; width: 130px;height: 120px;line-height: 120px;    
-                         
-                          border-radius: 100%;
-                          border: 3px solid #4e4a90;
-                        }
-#about .about_inner .ex03>h3{font-size: 15px;color: #4e4a90;padding-left:17px;font-weight: bold;}
-#about .about_inner .me_inner03{float: left; width: 1000px;height: 130px;
-                                margin-left: 50px; 
-                                margin-top: 40px;     
-                                border-bottom: 1px solid #4e4a90;}
-#about .about_inner .me_inner03>.bold{padding-left: 15px;padding-top: 5px; font-size: 18px; color: #333;font-weight: bold;}                         
-#about .about_inner .me_inner03>p{padding-left: 15px; margin-top: 10px; font-size: 16px;color: #808080;font-weight: bold;}                      
                                                              
                                
                                                                                                                   
@@ -258,7 +191,7 @@ a{text-decoration: none;}
 #skill .in_skill .skill_text>.text_main01>.skicon{float: left; width: 40px;height: 40px;
                                                   margin-top: 20px; margin-left: 5px;}
 #skill .in_skill .skill_text>.text_main01>.icon_text{float: left;width: 470px;height: 80px;margin-left: 5px;}  
-#skill .in_skill .skill_text>.text_main01>.icon_text>p{padding-left: 10px; padding-top: 20px;
+#skill .in_skill .skill_text>.text_main01>.icon_text>p{padding-left: 10px; padding-top: 30px;
                                                       font-size: 16px;color:#808080 ;font-weight: bold;}                                             
 #skill .in_skill .skill_text>.text_main01>.html{background: url("../images/html.png") 100% 100% / 100% 100%  no-repeat;}    
 #skill .in_skill .skill_text>.text_main01>.css{background: url("../images/css.png") 100% 100% / 100% 100%  no-repeat;}
@@ -307,7 +240,7 @@ a{text-decoration: none;}
       background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
 #project .project_inner>.pro_text{float: left; width: 650px;height: 710px;}
 #project .project_inner>.pro_text>.logoimg{margin-left: 50px; width: 500px;height: 200px;}
-#project .project_inner>.pro_text>.logotext{margin-left: 150px; margin-top: 30px; width: 500px;height: 200px;}
+#project .project_inner>.pro_text>.logotext{margin-left: 150px; margin-top: 20px; width: 500px;height: 200px;}
 #project .project_inner>.pro_text>.logotext>.logobox{width: 110px;height: 30px;line-height: 30px;
                                                      }
 #project .project_inner>.pro_text>.logotext>.logobox>h3{ font-size: 18px;color: #4e4a90;font-weight: bold;}
@@ -599,7 +532,7 @@ a{text-decoration: none;}
 
 
 #q_mn{position: absolute; right:20px; top: 300px; z-index: 9999;
-      width:120px; height:200px; border-radius: 6px;
+      width:120px; height:170px; border-radius: 6px;
     
       
       background-color: #4e4a90;}

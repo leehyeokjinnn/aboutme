@@ -46,7 +46,7 @@ $(function(){
 
         $(window).scroll(function(){
             var scrollTop = $(document).scrollTop();
-            if(scrollTop > 1800 && scene01Num == 1) {
+            if(scrollTop > 1600 && scene01Num == 1) {
                 scene01Num = 0;
                 $('#skill .in_box01').stop().delay(0)  .css({top:'300px'}).animate({top:'30px'},1000);
                 $('#skill .in_box02').stop().delay(300).css({top:'300px'}).animate({top:'30px'},1000);
@@ -54,7 +54,7 @@ $(function(){
                 $('#skill .in_box04').stop().delay(1200).css({top:'300px'}).animate({top:'250px'},1000);
                 $('#skill .in_box05').stop().delay(1500).css({top:'300px'}).animate({top:'30px'},1000);
             }
-            else if(scrollTop < 1500 && scene01Num == 0){
+            else if(scrollTop < 1300 && scene01Num == 0){
                 scene01Num = 1;
                 $('#skill .in_box01').stop().css({top:'30px'}).animate({top:'300px'},1000);
                 $('#skill .in_box02').stop().css({top:'30px'}).animate({top:'300px'},1000); 
