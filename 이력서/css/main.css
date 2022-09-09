@@ -1,0 +1,544 @@
+*{ margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+#wrap{width:100%}
+#wrap > div{ width: 100%; height:100vh}
+#wrap > div:nth-child(1){background-color: #fff;}
+#wrap > div:nth-child(2){background-color: #fff;}
+#wrap > div:nth-child(3){background-color: #fff;}
+#wrap > div:nth-child(4){background-color: #fff;}
+#wrap > div:nth-child(5){background-color: #fff;}
+
+
+#wrap > div:nth-child(6){}
+#wrap > div:nth-child(7){}
+#wrap > div:nth-child(8){background-color: rgb(117, 14, 235);}
+
+
+
+
+/* ==========Home========== */
+#main{width: 100%; height:100vh}
+#main .in_main{margin: 0 auto; width: 1500px;height:100vh;  }
+#main .header{float: left; width: 1500px; height: 120px;background-color: #fff;} 
+
+
+#main .logo{float: left; margin:  50px 0 0 0;  
+            width: 180px; height: 80px;  color: #808080; 
+            font-size: 20px;} 
+
+#main .nav{ float: right; margin: 50px 30px 0 0;}
+#main .nav li{ float: left; margin-right: 50px;}     
+#main .nav a{font-size: 20px; font-weight: 600; color:#808080;} 
+#main .nav li.on a{color:#a9a9a9;}
+
+#main .text{float: left; width: 900px;height: 600px;}
+#main .text .typing{padding-top: 200px; font-size: 50px; color: #4e4a90;}
+#main .text p{ padding-top: 10px; font-size: 16px;color:#808080;}
+#main .text .circle{float: left;margin-top: 10px;
+                   width: 20px;height: 20px;
+                   border-radius: 100%;}  
+
+#main .text .circle01{float: left; background-color: #f2f2f2;}                
+#main .text .circle02{margin-left: 5px; background-color: #e5e5e5;}
+#main .text .circle03{margin-left: 5px; background-color: #4e4a90;}
+
+#main .img{float: left; width: 600px;height:500px;background-color: #fff;
+           position: relative;}
+           
+#main .img .box01{position: absolute; left: 20px;top: 95px;z-index: 30;
+            width: 400px;height: 500px;background-color: #d3d3d3;
+            background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#main .img .box02{position: absolute; left: 35px;top: 80px; z-index: 20;
+              width: 400px;height: 500px;background-color: #e5e5e5;
+             }
+#main .img .box03{position: absolute; left: 50px;top: 65px; z-index: 10;
+              width: 400px;height: 500px;background-color: #f2f2f2}
+
+
+                   
+
+
+/* ==========resume========== */
+#resume{width: 100%;height: 100vh;  background-color: #fff;}
+#resume .title{float: left; width: 180px; height: 71px;  margin-left: 150px; margin-top: 20px;}
+#resume .title p{padding-top: 25px; font-size: 35px; font-weight: 600; color:#4e4a90 ;}
+#resume .line{float: left;margin-top: 40px;
+              width: 1320px;height: 30px; border-bottom: 3px solid #4e4a90;}
+
+#resume .resume_inner{float: left; margin-top: 30px; margin-left: 150px; width: 1500px;height: 700px;
+                       background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat; }
+
+#resume .resume_inner .intro{float: left; margin-left: -0px; width: 500px;height: 700px;}
+#resume .resume_inner .intro .img{margin-top: 30px; margin-left: 120px;
+                                 width: 230px;height: 270px;
+                                 background: url("../images/증명사진.jpg") 100% 100% / 100% 100%  no-repeat;
+                                  box-sizing: border-box;
+                                   border: 1px solid #4e4a90;}
+
+ #resume .resume_inner .intro .intro_name{margin-top: 30px; margin-left: 120px;
+                                          width: 300px;height: 150px;}
+#resume .resume_inner .intro .intro_name p{font-size: 18px;padding-top: 10px; color: #4e4a90; font-weight: bold;}
+#resume .resume_inner .intro .intro_name h2{font-size: 22px; padding-top: 10px; color: #4e4a90; font-weight: bold;}
+#resume .resume_inner .intro .mail{ margin-left: 120px; margin-top: 20px;
+                                   width: 400px;height: 150px;}
+
+#resume .resume_inner .intro .mail ul>li{color: #333;font-weight: bold;padding-top: 20px;
+                                         font-size:16px ;}
+#resume .resume_inner .intro .mail ul>li>span{color: #333;font-weight: 500;}
+
+
+
+#resume .resume_inner .profile{float: left; width: 500px;height:700px; }
+
+
+#resume .resume_inner .profile .cr01{margin-top: 30px;float: left; padding-left: 30px;
+                                     width: 350px;height: 100px;
+                                     margin-left: 75px; }
+#resume .resume_inner .profile .cr04{margin-top: 20px;float: left; padding-left: 30px;
+                                     width: 350px;height: 100px;
+                                     margin-left: 75px; }
+#resume .resume_inner .profile .cr02{margin-top: 20px;float: left;padding-left: 30px;
+                                     width: 350px;height: 220px;
+                                     margin-left: 75px; }
+#resume .resume_inner .profile .cr03{margin-top: 20px;float: left;padding-left: 30px;
+                                     margin-left: 75px;
+                                     width: 350px;height: 160px;;}
+
+
+#resume .resume_inner .profile .cr .bg01{width: 160px;height: 30px;}
+#resume .resume_inner .profile .cr .bg01>h3{padding-right: 25px;}
+#resume .resume_inner .profile .cr .bg04{width: 200px;height: 30px;}
+#resume .resume_inner .profile .cr .bg04>h3{padding-right: 20px;}
+#resume .resume_inner .profile .cr .bg02{width: 140px;height: 30px;}
+#resume .resume_inner .profile .cr .bg02>h3{padding-right: 25px;}
+#resume .resume_inner .profile .cr .bg03{width: 80px;height: 30px;}
+#resume .resume_inner .profile .cr .bg03>h3{padding-right: 25px;}
+
+#resume .resume_inner .profile .cr h3{padding-right: 15px; text-align: center; font-size: 20px;  color: #4e4a90; font-weight: bold;}
+#resume .resume_inner .profile .cr p{padding-top: 20px; font-size: 16px;  color: #808080;font-weight: 500; }
+#resume .resume_inner .profile .cr .on{padding-top: 10px;}
+#resume .resume_inner .profile .cr p>span{font-size: 16px;  color: #333;font-weight: bold; }
+#resume .resume_inner .profile .cr p>.ac{padding-left: 15px;}
+
+
+
+
+
+
+#resume .resume_inner .profile2{float: left; width: 500px;height:700px;}
+
+
+#resume .resume_inner .profile2 .cr01{margin-top: 30px;float: left; 
+                                      width: 350px;height: 50px;
+                                       margin-left: 75px;}
+#resume .resume_inner .profile2 .cr02{float: left;
+      width: 400px;height: 50px;
+      margin-left: 75px; }
+
+
+#resume .resume_inner .profile2 .cr03{margin-top: 30px;float: left;
+      margin-left: 75px;
+      width: 410px;height: 150px;}
+#resume .resume_inner .profile2 .cr03 .text{font-size: 15px;color: #333;font-weight: bold;}
+#resume .resume_inner .profile2 .cr04{float: left;
+            width: 400px;height: 50px;margin-top: 30px;
+            margin-left: 75px; }
+#resume .resume_inner .profile2 .cr04 span{font-size: 15px;color: #333;font-weight: bold;}           
+ #resume .resume_inner .profile2 .cr05{margin-top: 40px;float: left;
+            margin-left: 75px;
+            width: 350px;height: 150px;}
+
+      
+
+#resume .resume_inner .profile2 .cr .bg01{width: 70px;height: 30px;}
+#resume .resume_inner .profile2 .cr01> .bg01 > h3{padding-right: 25px; text-align: center; font-size: 20px;  color: #4e4a90; font-weight: bold;}
+#resume .resume_inner .profile2 .cr .bg02{width: 150px;height: 30px;}
+#resume .resume_inner .profile2 .cr05 > .bg02 > h3{padding-right: 35px; text-align: center; font-size: 20px;  color: #4e4a90; font-weight: bold;}
+#resume .resume_inner .profile2 .cr p{padding-top: 20px; font-size: 16px;  color: #808080;font-weight: 500; }
+#resume .resume_inner .profile2 .cr .on{padding-top: 10px;}
+#resume .resume_inner .profile2 .cr p>span{font-size: 16px;  color: #333;font-weight: bold; }
+#resume .resume_inner .profile2 .cr p>.ac{padding-left: 15px;}
+      
+      
+      
+
+
+
+                                                             
+                               
+                                                                                                                  
+
+
+/* ==========skill========== */
+#skill{width: 100%;height: 100vh; background-color: #fff;}
+#skill .title{float: left; width: 120px;height: 71px; margin-left: 150px;margin-top: 20px; color:#4e4a90 ; }
+#skill .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#skill .line{float: left;margin-top: 40px;
+             width: 1380px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+
+
+
+#skill .in_skill{float: left;margin-left: 150px;margin-top: 30px; width: 1500px;height: 710px;
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#skill .in_skill .skill_text{margin-left: 50px; float: left; width: 480px;height: 710px;}
+#skill .in_skill .skill_text>.text_main{width: 530px;height: 70px; margin-top: 120px;}
+#skill .in_skill .skill_text>.text_main>.textmain_box{width: 530px;height: 75px;
+                                                      box-sizing: border-box;
+                                                      border-bottom: 1px solid #4e4a90;}
+#skill .in_skill .skill_text>.text_main>.textmain_box>h3{font-size: 18px;color:#333 ;font-weight: bold;}
+#skill .in_skill .skill_text>.text_main01{margin-top: 5px; width: 530px;height: 80px;}
+#skill .in_skill .skill_text>.text_main01>.skicon{float: left; width: 40px;height: 40px;
+                                                  margin-top: 20px; margin-left: 5px;}
+#skill .in_skill .skill_text>.text_main01>.icon_text{float: left;width: 470px;height: 80px;margin-left: 5px;}  
+#skill .in_skill .skill_text>.text_main01>.icon_text>p{padding-left: 10px; padding-top: 30px;
+                                                      font-size: 16px;color:#808080 ;font-weight: bold;}                                             
+#skill .in_skill .skill_text>.text_main01>.html{background: url("../images/html.png") 100% 100% / 100% 100%  no-repeat;}    
+#skill .in_skill .skill_text>.text_main01>.css{background: url("../images/css.png") 100% 100% / 100% 100%  no-repeat;}
+#skill .in_skill .skill_text>.text_main01>.js{background: url("../images/js.png") 100% 100% / 100% 100%  no-repeat;}
+#skill .in_skill .skill_text>.text_main01>.query{background: url("../images/query.png") 100% 100% / 100% 100%  no-repeat;}
+#skill .in_skill .skill_text>.text_main01>.react{background: url("../images/react.png") 100% 100% / 100% 100%  no-repeat;}                                           
+#skill .in_skill .skill_text>.text_sub{width: 530px;height: 130px;
+                                       box-sizing: border-box;
+                                       border-top: 1px solid #4e4a90;}
+#skill .in_skill .skill_text>.text_sub>h3{margin-top: 10px; font-size: 18px;color: #333;font-weight: bold;}
+#skill .in_skill .skill_text>.text_sub>p{margin-top: 10px; font-size: 16px;color: #808080;font-weight: bold;}
+#skill .in_skill .skill_gr{float: left;width: 800px; height: 600px; 
+                           margin-top: 50px;
+                           margin-left: 100px;
+                           border-left: 1px solid #4e4a90;
+                           border-bottom: 1px solid #4e4a90;
+                           box-sizing: border-box;}
+#skill ul.skill_list{padding-top: 50px;
+                     padding-left: 130px;}
+#skill .skill_list > li{float: left; margin-right: 60px; text-align: center;}
+#skill .skill_list > li > div{ width: 70px; height:450px; 
+                               position: relative; overflow: hidden;}
+#skill .skill_list > li > div > .in_box{width: 70px; height:450px; background-color: #808080;
+                                        font-size: 24;
+                                        position: absolute; top:300px; left: 0;
+                                        color: #fff; font-weight: bold;}
+#skill .skill_list > li > div > .in_box01{background-color: #4e4a90;}
+#skill .skill_list > li > div > .in_box02{background-color: #4e4a90}
+#skill .skill_list > li > div > .in_box03{background-color: #4e4a90}
+#skill .skill_list > li > div > .in_box04{background-color: #4e4a90}
+#skill .skill_list > li > div > .in_box05{background-color: #4e4a90;}
+
+#skill .skill_list > li > img{margin-top: 10px;}
+
+
+
+
+/* ==========project========== */
+#project{width: 100%;height: 100vh; }    
+#project .title{float: left; width: 120px;height: 71px; margin-left: 150px;margin-top:20px ; color:#4e4a90 ; }
+#project .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project .line{float: left;margin-top: 40px;margin-left: 76px;
+             width: 1300px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project .project_inner{float: left;margin-left: 150px;margin-top: 30px; width: 1500px;height: 710px;
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project .project_inner>.pro_text{float: left; width: 650px;height: 710px;}
+#project .project_inner>.pro_text>.logoimg{margin-left: 50px; width: 500px;height: 200px;}
+#project .project_inner>.pro_text>.logotext{margin-left: 150px; margin-top: 20px; width: 500px;height: 200px;}
+#project .project_inner>.pro_text>.logotext>.logobox{width: 110px;height: 30px;line-height: 30px;
+                                                     }
+#project .project_inner>.pro_text>.logotext>.logobox>h3{ font-size: 18px;color: #4e4a90;font-weight: bold;}
+#project .project_inner>.pro_text>.logotext>p{padding-top: 10px;font-size: 15px;color: #333;}
+
+
+#project .project_inner>.pro_text>.logo_about{margin-left: 150px; margin-top: 20px; width: 500px;height: 200px;}
+#project .project_inner>.pro_text>.logo_about>.aboutbox{width: 110px;height: 30px;line-height: 30px;
+                                                        }
+#project .project_inner>.pro_text>.logo_about>.aboutbox>h3{font-size: 18px;color: #4e4a90;font-weight: bold;}
+#project .project_inner>.pro_text>.logo_about>p{padding-top: 10px;font-size: 15px;color: #808080;}
+#project .project_inner>.pro_text>.logo_about>p>span{font-weight: bold; color: #333;}
+
+#project .project_inner>.pro_img{margin-left: 80px; margin-top: 70px; float: left; width: 700px;height: 500px;}
+                         
+
+
+
+
+/* ==========CONCEPT=========== */
+#project01{width: 100%;height: 100vh;background-color: #fff;}    
+#project01 .title{float: left; width: 120px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project01 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project01 .line{float: left;margin-top: 40px;margin-left: 76px;
+             width: 1300px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project01 .project_inner{float: left;margin-left: 150px;margin-top: 40px;
+                          width: 1500px;height: 710px;
+                          background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+
+#project01 .project_inner .process{margin-left: 50px; width: 1400px;height: 355px; box-sizing: border-box; border-bottom:1px solid #4e4a90 ;}
+#project01 .project_inner .process>.design{float: left; width: 650px;height: 305px;
+                                           margin-top: 50px; margin-left: 90px;
+                                           }
+#project01 .project_inner .process>.design>.debox{width: 160px;height: 30px;line-height: 30px;
+                                                 }
+#project01 .project_inner .process>.design>.debox>h3{font-size: 18px;color: #4e4a90;font-weight: bold;}
+#project01 .project_inner .process>.design>h3{margin-top: 15px; font-size:16px ; font-weight: bold; color: #333;}
+
+#project01 .project_inner .process>.design>p{padding-top: 15px;font-size: 15px;color: #808080;}
+
+
+
+
+
+#project01 .project_inner .process>.design02{float: left; width: 650px;height: 305px;
+                                             margin-top: 25px; margin-left: 10px;
+                                             }
+#project01 .project_inner .process>.design02>.decir{float: left; margin-left: 40px; margin-top: 100px;
+                                                    width: 150px;height: 150px;
+                                                    border-radius: 100%;
+                                                    border:  1px solid #4e4a90;
+                                                    }
+#project01 .project_inner .process>.design02>.cir01>h3{font-size: 16px;color: #333; font-weight: bold;
+                                                       padding-top: 65px;padding-left: 25px;}
+#project01 .project_inner .process>.design02>.cir02>h3{font-size: 16px;color: #333; font-weight: bold;
+                                                       padding-top: 65px;padding-left: 20px;}  
+#project01 .project_inner .process>.design02>.cir03>h3{font-size: 16px;color: #333; font-weight: bold;
+                                                       padding-top: 65px;padding-left: 30px;}
+           
+
+
+
+#project01 .project_inner .color{margin-left: 50px; width: 1400px;height: 355px;}
+#project01 .project_inner .color>.funciton{float: left; width: 350px;height: 305px;
+                                           margin-top: 50px; margin-left: 90px; }        
+#project01 .project_inner .color>.funciton>.debox{width: 160px;height: 30px;line-height: 30px;
+                                                  }
+#project01 .project_inner .color>.funciton>.debox>h3{font-size: 18px;color: #4e4a90;font-weight: bold;}
+#project01 .project_inner .color>.funciton>h3{margin-top: 15px; font-size:16px ; font-weight: bold; color: #333;}
+
+#project01 .project_inner .color>.funciton>p{padding-top: 15px;font-size: 15px;color: #808080;}
+
+
+
+
+#project01 .project_inner .color>.font{float: left; width: 300px;height: 305px;
+                                       margin-top: 50px; margin-left: 200px;}  
+#project01 .project_inner .color>.font>.debox{width: 160px;height: 30px;line-height: 30px;
+                                          }
+#project01 .project_inner .color>.font>.debox>h3{font-size: 18px;color: #4e4a90;font-weight: bold;}
+#project01 .project_inner .color>.font>h3{margin-top: 15px; font-size:16px ; font-weight: bold; color: #333;}
+
+#project01 .project_inner .color>.font>p{padding-top: 15px;font-size: 15px;color: #808080;}
+
+
+
+#project01 .project_inner .color>.colors{float: left; width: 300px;height: 305px;
+      margin-top: 50px; margin-left: 150px;}  
+#project01 .project_inner .color>.colors>.debox{width: 160px;height: 30px;line-height: 30px;
+         }
+#project01 .project_inner .color>.colors>.debox>h3{font-size: 18px;color: #4e4a90;font-weight: bold;}
+
+#project01 .project_inner .color>.colors>.codir{float: left;margin-top: 30px;
+                                                width: 50px;height: 50px;
+                                                border-radius: 100%;
+                                                
+                                                }
+#project01 .project_inner .color>.colors>.codir>h3{color: #333; font-size: 13px;padding-top: 60px;}
+#project01 .project_inner .color>.colors>.co01{margin-left: 0px;background-color: #f5f5dc;}                                
+#project01 .project_inner .color>.colors>.co02{margin-left: 15px;background-color: #e2e2c8;}
+#project01 .project_inner .color>.colors>.co03{margin-left: 15px; background-color: #333;}
+
+
+
+
+
+/* ==========MAIN-PAGE========== */
+#project02{width: 100%;height: 100vh;background-color: #fff;}    
+#project02 .title{float: left; width: 230px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project02 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project02 .line{float: left;margin-top: 40px;
+             width: 1270px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project02 .project_inner{float: left;margin-left: 150px;margin-top: 40px; width: 1500px;height: 710px; 
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project02 .project_inner>.mainimg{float: left;width: 1000px;height: 710px;
+      background: url("../images/mainimg07.png") 100% 100% / 100% 100%  no-repeat;
+                            }
+
+
+#project02 .project_inner>.maintext{float: left; margin-top: 13px; width: 500px;height: 680px;
+      
+      box-sizing: border-box;}
+#project02 .project_inner>.maintext>.textbox{margin-left:70px;margin-top: 13px; width: 450px;height: 300px;}
+#project02 .project_inner>.maintext>.textbox>.textbox2{width: 300px;height: 30px;
+                                                        line-height: 30px;text-align: center;
+                                                        border-bottom: 1px solid #4e4a90;
+                                                        }
+#project02 .project_inner>.maintext>.textbox>.textbox2>h3{font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project02 .project_inner>.maintext>.textbox>.textbox3{margin-top: 35px; width: 300px;height: 30px;
+      line-height: 30px;text-align: center;
+      border-bottom: 1px solid #4e4a90;
+      }
+#project02 .project_inner>.maintext>.textbox>.textbox3>h3{font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project02 .project_inner>.maintext>.textbox>.modal{margin-top: 10px; width: 300px; height: 200px;background-color: red;}
+
+
+
+
+#project02 .project_inner>.maintext>.slidebox{margin-left: 70px;margin-top: 50px; width: 450px;height: 300px;}
+#project02 .project_inner>.maintext>.slidebox>.textbox2{width: 300px;height: 30px;
+                                                        margin-top: 60px;
+                                                        line-height: 30px;text-align: center;
+                                                         border-bottom: 1px solid #4e4a90;
+                                                        }
+#project02 .project_inner>.maintext>.slidebox>.textbox2>h3{font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project02 .project_inner>.maintext>.slidebox>.slide{margin-top: 10px;width: 400px;height: 210px;}
+
+
+
+
+/* ==========LIST-PAGE========== */
+#project03{width: 100%;height: 100vh;background-color: #fff;}    
+#project03 .title{float: left; width: 200px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project03 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project03 .line{float: left;margin-top: 40px;
+             width: 1300px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project03 .project_inner{float: left;margin-left: 150px;margin-top: 40px; width: 1500px;height: 710px;
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project03 .project_inner>.listimg{float: left;width: 1000px;height: 710px;
+                                  
+                                    background: url("../images/listimg07.png") 100% 100% / 100% 100%  no-repeat;}
+#project03 .project_inner>.listtext{float: left;width: 500px;height: 710px; 
+                                    }
+#project03 .project_inner>.listtext>.textbox{margin-left:50px;margin-top: 90px; width: 450px;height: 100px;}
+#project03 .project_inner>.listtext>.textbox>.textbox2{width: 350px;height: 50px;margin-top: 20px;
+                                                        line-height: 60px;
+                                                        border-bottom: 1px solid #4e4a90;}
+#project03 .project_inner>.listtext>.textbox>.textbox2>h3{padding-left: 5px;font-size: 18px;color: #4e4a90; font-weight: bold;}
+
+
+
+
+#project03 .project_inner>.listtext>.slidebox{margin-left: 50px; width: 400px;height: 400px;
+                                                        margin-top: 60px;
+                                                        line-height: 30px;text-align: center;
+                                                        
+                                                       }
+#project03 .project_inner>.listtext>.slidebox>.textbox2>h3{font-size: 18px;color: #4e4a90; font-weight: bold; border-bottom: 1px solid #4e4a90;}
+#project03 .project_inner>.listtext>.slidebox>.slide{margin-top: 20px;width: 400px;height: 170px;}
+#project03 .project_inner>.listtext>.slidebox>.slide02{margin-top: 10px;width: 400px;height: 200px;}
+
+
+
+
+
+
+
+/* ==========DETAIL-PAGE========== */
+#project04{width: 100%;height: 100vh;background-color: #fff;}    
+#project04 .title{float: left; width: 270px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project04 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project04 .line{float: left;margin-top: 40px;
+             width: 1230px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project04 .project_inner{float: left;margin-left: 150px;margin-top: 40px; width: 1500px;height: 710px;
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project04 .project_inner>.detailimg{float: left;width: 1000px;height: 710px;
+                                     background: url("../images/detailimg07.png") 100% 100% / 100% 100%  no-repeat;}
+#project04 .project_inner>.detailtext{float: left;width: 500px;height: 710px;
+                                          box-sizing: border-box;}
+#project04 .project_inner>.detailtext>.textbox{margin-left:50px;margin-top: 100px; width: 450px;height: 300px;}
+#project04 .project_inner>.detailtext>.textbox>.textbox2{width: 400px;height: 40px;margin-top: 30px;
+                                                       line-height: 50px;
+                                                      border-bottom: 1px solid #4e4a90;
+                                                       }
+#project04 .project_inner>.detailtext>.textbox>.textbox2>h3{padding-left: 5px;font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project04 .project_inner>.detailtext>.textbox>.imgbox{margin-top: 25px; width: 400px;height: 200px;background-color: aqua;}     
+
+#project04 .project_inner>.detailtext>.textbox02{width: 400px;height: 300px;margin-left: 50px;}
+#project04 .project_inner>.detailtext>.textbox02>.textbox3{width: 400px;height: 40px;
+                                                          border-bottom: 1px solid #4e4a90;
+                                                         line-height: 50px;
+                                                          }            
+#project04 .project_inner>.detailtext>.textbox02>.textbox3>h3{padding-left: 5px;font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project04 .project_inner>.detailtext>.textbox02>.clickbox{width: 400px;height: 150px; }
+
+
+
+
+
+
+/* ==========CART-PAGE========== */
+#project05{width: 100%;height: 100vh;background-color: #fff;}    
+#project05 .title{float: left; width: 230px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project05 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project05 .line{float: left;margin-top: 40px;
+             width: 1270px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project05 .project_inner{float: left;margin-left: 150px;margin-top: 40px; width: 1500px;height: 710px;
+      background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project05 .project_inner>.cartimg{float: left;width: 1000px;height: 710px;
+      background: url("../images/cartimg07.png") 100% 100% / 100% 100%  no-repeat;}
+
+#project05 .project_inner>.carttext{float: left;width: 500px;height: 710px; 
+            box-sizing: border-box;}
+#project05 .project_inner>.carttext>.textbox{margin-left:50px;margin-top: 150px; width: 450px;height: 200px;}
+#project05 .project_inner>.carttext>.textbox>.textbox2{width: 300px;height: 40px;margin-top: 30px;
+                                                             line-height: 50px;
+                                                             margin-left: 30px;
+                                                             border-bottom: 1px solid #4e4a90;}
+#project05 .project_inner>.carttext>.textbox>.textbox2>h3{padding-left: 5px; font-size: 18px;color: #4e4a90; font-weight: bold;}
+            
+#project05 .project_inner>.carttext>.control{width: 450px; height: 300px;margin-left: 30px;}
+#project05 .project_inner>.carttext>.control>.textbox2{width: 380px;height: 40px;margin-top: 30px;
+                                                       line-height: 50px;
+                                                       margin-left: 30px;
+                                                       border-bottom: 1px solid #4e4a90;}
+#project05 .project_inner>.carttext>.control>.textbox2>h3{padding-left: 5px; font-size: 18px;color: #4e4a90; font-weight: bold;}
+#project05 .project_inner>.carttext>.control>.controlbox{margin-top: 10px;margin-left: 30px; width: 380px;height: 200px;}
+
+
+
+
+
+/* ==========FINSH========== */
+#project06{width: 100%;height: 100vh;background-color: #fff;}    
+#project06 .title{float: left; width: 150px;height: 71px; margin-left: 150px;margin-top:30px ; color:#4e4a90 ; }
+#project06 .title p{font-size: 35px; font-weight: 600;padding-top: 25px}
+#project06 .line{float: left;margin-top: 40px;
+                 width: 1350px; height: 30px;border-bottom: 3px solid #4e4a90;}
+
+#project06 .project_inner{float: left;margin-left: 150px;margin-top: 20px; width: 1500px;height: 710px; 
+                           background: url("../images/white-texture_1203-766.jpg") 100% 100% / 100% 100%  no-repeat;}
+#project06 .project_inner>.fbox01{float: left; width: 1000px;height:710px ; margin-left: 50px;}
+#project06 .project_inner>.fbox01>div{width: 90px;height: 30px;
+                                      margin-left: 30px; padding-top: 50px;}
+#project06 .project_inner>.fbox01>div>h3{ line-height: 30px;font-size: 22px;color: #4e4a90; font-weight: bold; border-bottom: 1px solid #4e4a90;}
+#project06 .project_inner>.fbox01>p{width: 900px; padding-left: 30px; padding-top: 30px; font-size: 16px;
+                                   }
+
+
+
+#project06 .project_inner>.fbox02{margin-left: 100px; float: left; width: 300px;height:710px ; }
+#project06 .project_inner>.fbox02>div{padding-top: 250px; width: 500px;height: 100px;}
+#project06 .project_inner>.fbox02>div>h1{width: 300px; font-size: 45px;color: #4e4a90; font-weight: bold; border-bottom: 1px solid #4e4a90;}
+#project06 .project_inner>.fbox02>div>h2{width: 160px;  padding-top: 70px; font-size: 20px;color: #4e4a90; font-weight: bold;border-bottom: 1px solid #4e4a90;}
+#project06 .project_inner>.fbox02>div>P{padding-top: 70px;font-size: 16px; color: #808080;}
+
+
+
+
+
+
+
+
+
+
+#q_mn{position: absolute; right:20px; top: 300px; z-index: 9999;
+      width:120px; height:170px; border-radius: 6px;
+    
+      
+      background-color: #4e4a90;}
+#q_mn ul.nav{ margin:0 auto; margin-top:25px; list-style:none; width:80px; height: 100px;}	
+#q_mn ul.nav li{ margin-bottom:10px}   
+#q_mn ul.nav li a{ color: #fff; font-size: 16px;font-weight: 600;}
+#q_mn ul.nav li.on a{ color: rgb(15, 15, 15);}
